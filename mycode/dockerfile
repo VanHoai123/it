@@ -1,0 +1,3 @@
+FROM httpd:latest
+RUN mkdir /usr/local/apache2/sites-available
+RUN mkdir /usr/local/apache2/sites-enabled
